@@ -1,0 +1,21 @@
+filters:
+  and:
+    - file.hasTag("Invocation")
+    - file.ext == "md"
+properties:
+  file.name:
+    displayName: Invocation
+  note.prerequisite:
+    displayName: Prerequisite
+  note.Desc:
+    displayName: Description
+views:
+  - type: table
+    name: Warlock Invocations
+    order:
+      - file.name
+      - prerequisite
+      - Desc
+    sort:
+      - property: prerequisite
+        direction: ASC

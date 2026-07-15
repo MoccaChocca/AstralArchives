@@ -1,0 +1,43 @@
+filters:
+  and:
+    - file.hasTag("Spell")
+    - file.hasTag("Bard")
+    - file.ext == "md"
+formulas:
+  spell_level: if(file.hasTag("Cantrip"), "Cantrip", if(file.hasTag("0th"), "Cantrip", if(file.hasTag("1st"), "1st", if(file.hasTag("2nd"), "2nd", if(file.hasTag("3rd"), "3rd", if(file.hasTag("4th"), "4th", if(file.hasTag("5th"), "5th", if(file.hasTag("6th"), "6th", if(file.hasTag("7th"), "7th", if(file.hasTag("8th"), "8th", if(file.hasTag("9th"), "9th", "")))))))))))
+  spell_level_group: if(file.hasTag("Cantrip"), "0 - Cantrip", if(file.hasTag("0th"), "0 - Cantrip", if(file.hasTag("1st"), "1st", if(file.hasTag("2nd"), "2nd", if(file.hasTag("3rd"), "3rd", if(file.hasTag("4th"), "4th", if(file.hasTag("5th"), "5th", if(file.hasTag("6th"), "6th", if(file.hasTag("7th"), "7th", if(file.hasTag("8th"), "8th", if(file.hasTag("9th"), "9th", "")))))))))))
+  ritual_text: if(note.ritual, "Yes", "No")
+properties:
+  file.name:
+    displayName: Spell
+  formula.spell_level:
+    displayName: Level
+  note.casting_time:
+    displayName: Casting Time
+  note.range:
+    displayName: Range
+  note.components:
+    displayName: Components
+  note.duration:
+    displayName: Duration
+  formula.ritual_text:
+    displayName: Ritual
+  formula.spell_level_group:
+    displayName: Level Group
+views:
+  - type: table
+    name: Bard Spells
+    groupBy:
+      property: formula.spell_level_group
+      direction: ASC
+    order:
+      - file.name
+      - formula.spell_level
+      - casting_time
+      - range
+      - components
+      - duration
+      - formula.ritual_text
+    sort:
+      - property: file.name
+        direction: ASC

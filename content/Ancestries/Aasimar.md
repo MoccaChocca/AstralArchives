@@ -1,0 +1,41 @@
+---
+tags:
+  - RAW
+  - Ancestry
+ancestry_size:
+  - Medium
+  - Small
+ancestry_type:
+  - Humanoid
+ancestry_speed: 30 feet
+---
+
+Aasimar are mortals touched by the light of the Upper Planes. They usually resemble their mortal kin, but signs of celestial power often appear in their eyes, skin, voice, or the radiant aura they reveal in moments of need.
+
+### Aasimar Traits
+
+***Creature Type:*** Humanoid
+
+***Size:*** Medium or Small
+
+***Speed:*** 30 feet
+
+As a Aasimar, you have these special traits.
+
+**Celestial Resistance.** You have [[Damage Resistance and Vulnerability|Resistance]] to Necrotic damage and Radiant damage.
+
+**Darkvision.** You have [[Special Senses|Darkvision]] with a range of 60 feet.
+
+**Healing Hands.** As a [[Magic action]], you touch a creature and roll a number of d4s equal to your [[Proficiency Bonus]]. The creature regains a number of [[Hit Points]] equal to the total rolled. Once you use this trait, you can't use it again until you finish a Long Rest.
+
+**Light Bearer.** You know the *[[Rules/Equipment/Weapon Properties/Light|Light]]* cantrip. [[Charisma]] is your spellcasting ability for it.
+
+**Celestial Revelation.** When you reach character level 3, you can transform as a [[Bonus Action]] using one of the options below (choose the option each time you transform). The transformation lasts for 1 minute or until you end it (no [[action]] required). Once you transform, you can’t do so again until you finish a [[Resting|Long Rest]].
+
+Once on each of your turns before the transformation ends, you can deal extra damage to one target when you deal damage to it with an attack or a spell. The extra damage equals your [[Proficiency Bonus]], and the extra damage’s type is either Necrotic for Necrotic Shroud or Radiant for Heavenly Wings and Inner Radiance.
+
+**Heavenly Wings.** Two spectral wings sprout from your back temporarily. Until the transformation ends, you have a [[Rules/Core/Movement/Movement|Fly Speed]] equal to your Speed.
+
+**Inner Radiance.** Searing light temporarily radiates from your eyes and mouth. For the duration, you shed [[Vision|Bright Light]] in a 10-foot radius and [[Vision|Dim Light]] for an additional 10 feet, and at the end of each of your turns, each creature within 10 feet of you takes Radiant damage equal to your [[Proficiency Bonus]].
+
+**Necrotic Shroud.** Your eyes briefly become pools of darkness, and flightless wings sprout from your back temporarily. Creatures other than your allies within 10 feet of you must succeed on a [[Saving Throws|Charisma saving throw]] (DC 8 plus your [[Charisma]] modifier and [[Proficiency Bonus]]) or have the [[Frightened]] condition until the end of your next turn.

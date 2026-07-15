@@ -1,0 +1,18 @@
+filters:
+  and:
+    - file.hasTag("Metamagic")
+    - file.ext == "md"
+properties:
+  file.name:
+    displayName: Metamagic
+  note.metamagic_cost:
+    displayName: Cost
+  note.Desc:
+    displayName: Description
+views:
+  - type: table
+    name: Metamagic Options
+    order:
+      - file.name
+      - metamagic_cost
+      - Desc

@@ -1,0 +1,66 @@
+filters:
+  and:
+    - file.inFolder("Spells")
+    - file.ext == "md"
+    - or:
+        - file.hasTag("Cantrip")
+        - file.hasTag("1st")
+        - file.hasTag("2nd")
+        - file.hasTag("3rd")
+        - file.hasTag("4th")
+        - file.hasTag("5th")
+        - file.hasTag("6th")
+        - file.hasTag("7th")
+        - file.hasTag("8th")
+        - file.hasTag("9th")
+formulas:
+  spell: file.asLink(file.name)
+  levelGroup: |
+    if(file.hasTag("Cantrip"), "0 - Cantrip",
+    if(file.hasTag("1st"), "1 - 1st",
+    if(file.hasTag("2nd"), "2 - 2nd",
+    if(file.hasTag("3rd"), "3 - 3rd",
+    if(file.hasTag("4th"), "4 - 4th",
+    if(file.hasTag("5th"), "5 - 5th",
+    if(file.hasTag("6th"), "6 - 6th",
+    if(file.hasTag("7th"), "7 - 7th",
+    if(file.hasTag("8th"), "8 - 8th",
+    if(file.hasTag("9th"), "9 - 9th", "Unknown"))))))))))
+  level: |
+    if(file.hasTag("Cantrip"), "Cantrip",
+    if(file.hasTag("1st"), "1st",
+    if(file.hasTag("2nd"), "2nd",
+    if(file.hasTag("3rd"), "3rd",
+    if(file.hasTag("4th"), "4th",
+    if(file.hasTag("5th"), "5th",
+    if(file.hasTag("6th"), "6th",
+    if(file.hasTag("7th"), "7th",
+    if(file.hasTag("8th"), "8th",
+    if(file.hasTag("9th"), "9th", "Unknown"))))))))))
+  school: file.tags.filter(value.containsAny("Abjuration", "Conjuration", "Divination", "Enchantment", "Evocation", "Illusion", "Necromancy", "Transmutation")).join(", ").replace(/#/g, "")
+  classes: file.tags.filter(value.containsAny("Bard", "Cleric", "Druid", "Paladin", "Ranger", "Sorcerer", "Warlock", "Wizard", "Artificer")).join(", ").replace(/#/g, "")
+properties:
+  formula.spell:
+    displayName: Spell
+  formula.level:
+    displayName: Level
+  formula.levelGroup:
+    displayName: Level Group
+  formula.school:
+    displayName: School
+  formula.classes:
+    displayName: Classes
+views:
+  - type: table
+    name: All Spells
+    groupBy:
+      property: formula.levelGroup
+      direction: ASC
+    order:
+      - formula.spell
+      - formula.level
+      - formula.school
+      - formula.classes
+    sort:
+      - property: formula.spell
+        direction: ASC

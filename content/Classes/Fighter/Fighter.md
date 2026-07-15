@@ -1,0 +1,140 @@
+---
+tags:
+  - Class
+  - RAW
+---
+Fighters rule many battlefields. Questing knights, royal champions, elite soldiers, and hardened mercenaries - as Fighters, they all share an unparalleled prowess with weapons and armour. And they are well acquainted with death, both meting it out and defying it.
+
+Fighters master various weapon techniques, and a well-equipped Fighter always has the right tool at hand for any combat situation. Likewise, a Fighter is adept with every form of armour. Beyond that basic degree of familiarity, each Fighter specializes in certain styles of combat. Some concentrate on archery, some on fighting with two weapons at once, and some on augmenting their martial skills with magic. This combination of broad ability and extensive specialization makes Fighters superior combatants.
+
+| Trait                      | Detail                                                                                                                                                                                                                                                                                                               |
+| -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Primary Ability            | [[Strength]] or [[Dexterity]]                                                                                                                                                                                                                                                                                        |
+| Hit Point Die              | D10 per Fighter level                                                                                                                                                                                                                                                                                                |
+| Saving Throw Proficiencies | [[Strength]] and [[Constitution]]                                                                                                                                                                                                                                                                                    |
+| Skill Proficiencies        | Choose 2: Acrobatics, Animal Handling, Athletics, History, Insight, Intimidation, Persuasion, Perception, or Survival                                                                                                                                                                                                |
+| Weapon Proficiencies       | Simple and Martial weapons                                                                                                                                                                                                                                                                                           |
+| Armour Training            | Light, Medium and Heavy armour and Shields                                                                                                                                                                                                                                                                           |
+| Starting Equipment         | Choose A, B, or C: (A) [[Chain Mail]], [[Greatsword]], [[Flail]], 8 [[Javelin\|Javelins]], [[Dungeoneer’s Pack\|Dungeoneer's Pack]], and 4gp (B) [[Studded Leather Armour]], [[Scimitar]], [[Shortsword]], [[Longbow]], 20 [[Arrows]], [[Quiver]], [[Dungeoneer’s Pack\|Dungeoneer's Pack]] and 11 GP; or (C) 155 GP |
+
+## Becoming a Fighter…
+
+### As a Level 1 Fighter
+
+- Gain all the traits in the Core Fighter Traits table.
+- Gain the Fighter’s level 1 features, which are listed in the Fighter Features table.
+
+### As a Multiclass Fighter
+
+- Gain the following traits from the Core Fighter Traits table: [[Hit Points|Hit Point]] Die, proficiency with Martial weapons, and training with Light and Medium armour and Shields.
+- Gain the Fighter’s level 1 features, which are listed in the Fighter Features table.
+
+## Fighter Class Features
+
+| Level | Class Features                                    | Second Wind | Weapon Mastery |
+| ----- | ------------------------------------------------- | ----------- | -------------- |
+| 1     | Fighting Style, Second Wind, Weapon Mastery       | 2           | 3              |
+| 2     | Action Surge (One Use), Tactical Mind             | 2           | 3              |
+| 3     | Fighter Subclass                                  | 2           | 3              |
+| 4     | Ability Score Improvement                         | 3           | 4              |
+| 5     | Extra Attack, Tactical Shift                      | 3           | 4              |
+| 6     | Ability Score Improvement                         | 3           | 4              |
+| 7     | Subclass Feature                                  | 3           | 4              |
+| 8     | Ability Score Improvement                         | 3           | 4              |
+| 9     | Indomitable (One Use), Tactical Master            | 3           | 4              |
+| 10    | Subclass Feature                                  | 4           | 5              |
+| 11    | Two Extra Attacks                                 | 4           | 5              |
+| 12    | Ability Score Improvement                         | 4           | 5              |
+| 13    | Indomitable (Two Uses), Studied Attacks           | 4           | 5              |
+| 14    | Ability Score Improvement                         | 4           | 5              |
+| 15    | Subclass Feature                                  | 4           | 5              |
+| 16    | Ability Score Improvement                         | 4           | 6              |
+| 17    | Action Surge (Two Uses), Indomitable (Three Uses) | 4           | 6              |
+| 18    | Subclass Feature                                  | 4           | 6              |
+| 19    | Epic Boon                                         | 4           | 6              |
+| 20    | Three Extra Attacks                               | 4           | 6              |
+
+As a Fighter, you gain the following class features when you reach the specified Fighter levels. These features are listed on the Fighter Features table.
+
+## Level 1: Fighting Style
+
+You gain a Fighting Style feat of your choice
+
+Whenever you gain a Fighter level, you can replace the feat you chose with a different Fighting Style feat.
+
+## Level 1: Second Wind
+
+You have a limited well of physical and mental stamina that you can draw on. As a [[Bonus Action]], you can use it to regain [[Hit Points]] equal to 1d10 plus your Fighter level.
+
+You can use this feature twice. You regain one expended use when you finish a [[Resting|Short Rest]], and you regain all expended uses when you finish a [[Resting|Long Rest]].
+
+When you reach certain Fighter levels, you gain more uses of this feature, as shown in the Second Wind column of the Fighter Features table.
+
+## Level 1: Weapon Mastery
+
+Your training with weapons allows you to use the mastery properties of three kinds of Simple or Martial weapons of your choice. Whenever you finish a [[Resting|Long Rest]], you can practice weapon drills and change one of those weapon choices.
+
+When you reach certain Fighter levels, you gain the ability to use the mastery properties of more kinds of weapons, as shown in the Weapon Mastery column of the Fighter Features table.
+
+## Level 2: Action Surge
+
+You can push yourself beyond your normal limits for a moment. On your turn, you can take one additional [[action]], except the [[Magic action]].
+
+Once you use this feature, you can’t do so again until you finish a [[Resting|Short or Long Rest]]. Starting at level 17, you can use it twice before a rest but only once on a turn.
+
+## Level 2: Tactical Mind
+
+You have a mind for tactics on and off the battlefield. When you fail an [[Ability Checks|ability check]], you can expend a use of your Second Wind to push yourself toward success. Rather than regaining [[Hit Points]], you roll 1d10 and add the number rolled to the [[Ability Checks|ability check]], potentially turning it into a success. If the check still fails, this use of Second Wind isn’t expended.
+
+## Level 3: Fighter Subclass
+
+You gain a Fighter subclass of your choice. The Battle Master, Champion, Eldritch Knight, and Psi Warrior subclasses are detailed after this class’s description. A subclass is a specialization that grants you features at certain Fighter levels. For the rest of your career, you gain each of your subclass’s features that are of your Fighter level or lower.
+
+### Fighter Subclasses
+
+| Subclass | Description |
+| --- | --- |
+| [[Banneret]] | A battlefield commander who turns courage into momentum, rallying allies through presence, leadership, and shared resolve. |
+| [[Battle Master]] | A tactical weapon expert who uses maneuvers to control positioning, punish mistakes, and turn ordinary attacks into precise battlefield decisions. |
+| [[Champion]] | A straightforward martial powerhouse who improves the fundamentals of combat, relying on enhanced critical hits, athleticism, and durability. |
+| [[Eldritch Knight]] | A warrior-mage who blends weapon mastery with arcane defence and offence, protecting themselves with spells while pressing the attack. |
+| [[Psi Warrior]] | A disciplined fighter who channels psionic power through martial technique, shielding allies, moving objects, and striking with telekinetic force. |
+
+
+## Level 4: Ability Score Improvement
+
+You gain the [[Ability Score Improvement]] feat or another feat of your choice for which you qualify. You gain this feature again at Fighter levels 6, 8, 12, 14, and 16.
+
+## Level 5: Extra Attack
+
+You can attack twice instead of once whenever you take the [[Attack action]] on your turn.
+
+## Level 5: Tactical Shift
+
+Whenever you activate your Second Wind with a [[Bonus Action]], you can move up to half your Speed without provoking [[Opportunity Attacks]].
+
+## Level 9: Indomitable
+
+If you fail a [[Saving Throws|saving throw]], you can reroll it with a bonus equal to your Fighter level. You must use the new roll, and you can’t use this feature again until you finish a [[Resting|Long Rest]].
+
+You can use this feature twice before a [[Resting|Long Rest]] starting at level 13 and three times before a [[Resting|Long Rest]] starting at level 17.
+
+## Level 9: Tactical Master
+
+When you attack with a weapon whose mastery property you can use, you can replace that property with the [[Push]], [[Sap]], or [[Rules/Equipment/Weapon Masteries/Slow|Slow]] property for that attack.
+
+## Level 11: Two Extra Attacks
+
+You can attack three times instead of once whenever you take the [[Attack action]] on your turn.
+
+## Level 13: Studied Attacks
+
+You study your opponents and learn from each attack you make. If you make an [[Attack Rolls|attack roll]] against a creature and miss, you have [[Advantage and Disadvantage|Advantage]] on your next [[Attack Rolls|attack roll]] against that creature before the end of your next turn.
+
+## Level 19: Epic Boon
+
+You gain an Epic Boon feat or another feat of your choice for which you qualify.
+
+## Level 20: Three Extra Attacks
+
+You can attack four times instead of once whenever you take the [[Attack action]] on your turn.

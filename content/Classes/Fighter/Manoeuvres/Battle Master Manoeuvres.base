@@ -1,0 +1,16 @@
+filters:
+  and:
+    - file.hasTag("Manoeuvre")
+    - file.ext == "md"
+properties:
+  file.name:
+    displayName: Manoeuvre
+  note.Desc:
+    displayName: Description
+views:
+  - type: table
+    name: Manoeuvres
+    order:
+      - file.name
+      - Desc
+    sort: []

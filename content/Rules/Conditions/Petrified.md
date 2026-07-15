@@ -1,0 +1,11 @@
+---
+tags:
+  - Remake
+---
+- A petrified creature is transformed, along with any nonmagical object it is wearing or carrying, into a solid inanimate substance, usually stone. Its weight increases by a factor of ten, and it ceases aging.  
+- A petrified creature is [[incapacitated]] and is unaware of its surroundings. 
+- A petrified creature’s Speed is 0 and can’t increase.
+- [[Attack rolls]] against the creature have [[Advantage and Disadvantage|advantage]].  
+- A petrified creature automatically fails [[Strength]] and [[Saving Throws|Dexterity saving throws]].  
+- A petrified creature has [[Damage Resistance and Vulnerability|resistance]] to all damage.
+- A petrified creature is [[Damage Resistance and Vulnerability|immune]] to poison and disease, although a poison or disease already in its system is suspended, not neutralized.
